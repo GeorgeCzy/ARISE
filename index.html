@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARISE | From Social Reasoning to Embodied Interaction</title>
+  <meta name="description" content="ARISE bridges agentic reasoning and interactive social embodiment on the Sophia humanoid robot, connecting multimodal understanding and memory to coordinated speech, facial expressions, and gestures.">
+  <meta property="og:title" content="ARISE — From Social Reasoning to Embodied Interaction">
+  <meta property="og:description" content="An agentic framework for social robots: multimodal reasoning, long-term memory, and coordinated embodied interaction on Sophia.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23334f89'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Arial' font-size='43' font-weight='700' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="links.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#abstract">Skip to content</a>
+<header class="publication-header container">
+  <p class="project-name">ARISE</p>
+  <h1>From Social Reasoning to Embodied Interaction:<br class="desktop-break"> An Agentic Framework for Social Robots</h1>
+  <p class="authors">Anonymous Authors</p>
+  <p class="subtitle"><b>A</b>gentic <b>R</b>easoning and <b>I</b>nteractive <b>S</b>ocial <b>E</b>mbodiment</p>
+  <div class="publication-links" aria-label="Publication resources">
+    <a class="resource" href="assets/paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8l4 4v16H6zM14 2v5h4M9 12h6M9 16h6"/></svg>Paper</a>
+    <button class="resource pending" data-resource="arxiv" type="button" aria-disabled="true" title="arXiv link coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 3 14 18M7 3l12 18M18 3 5 18"/></svg>arXiv<span class="sr-only"> — link coming soon</span></button>
+    <button class="resource pending" data-resource="video" type="button" aria-disabled="true" title="Video link coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/></svg>Video<span class="sr-only"> — link coming soon</span></button>
+  </div>
+  <p class="resource-note" id="resource-status" role="status">arXiv and video links coming soon.</p>
+</header>
+<main>
+  <section class="teaser container" aria-label="ARISE at a glance">
+    <figure>
+      <a href="assets/teaser.pdf" target="_blank" rel="noopener" aria-label="Open the original ARISE teaser PDF"><img src="assets/teaser.webp" alt="ARISE on Sophia: multi-round observations and dialogue alongside coordinated speech, facial expressions, and robot-native gestures." width="2400" height="1023" fetchpriority="high"></a>
+      <figcaption><strong>From social intent to coordinated robot behavior.</strong> ARISE connects multimodal understanding, long-term memory, and proactive engagement with expressive speech, face, and gesture execution on Sophia.</figcaption>
+    </figure>
+  </section>
+  <section class="section abstract-section" id="abstract">
+    <div class="reading-width"><h2>Abstract</h2>
+      <p>Natural face-to-face human–robot interaction requires a robot to understand an evolving social situation, decide when to engage, and express its intent through coordinated physical behavior. Yet existing approaches rarely close this loop: foundation-model agents provide increasingly capable multimodal reasoning and memory but remain largely disembodied, while expressive virtual agents do not face the physical constraints of real robots, and physical social robots typically address social reasoning and embodied expression only partially.</p>
+      <p>We present <strong>ARISE</strong>, a unified framework that bridges <strong>Agentic Reasoning and Interactive Social Embodiment</strong> on the Sophia humanoid robot. ARISE integrates multimodal context understanding, long-term memory, and reactive and proactive interaction to determine when and what to communicate, and translates social intent into robot-native gestures coordinated with speech and mechanical facial expressions through streaming execution.</p>
+      <p>Extensive evaluations on Sophia demonstrate strong perceived interaction quality, expressive and well-coordinated embodied behavior, and substantial latency reductions through streaming execution. These results highlight the importance of jointly reasoning about what to communicate, when to engage, and how to physically express social intent for natural interaction with humanoid robots.</p>
+    </div>
+  </section>
+  <section class="section container" id="overview">
+    <h2>Overview</h2>
+    <figure><a href="assets/overview.pdf" target="_blank" rel="noopener" aria-label="Open the original ARISE pipeline PDF"><img src="assets/overview.webp" alt="ARISE pipeline: conversational audio and RGB observations enter a multimodal social agent, followed by streaming multimodal orchestration and deployment to Sophia's facial motors, loudspeaker, and gesture motors." width="2400" height="792" loading="lazy"></a>
+      <figcaption><strong>ARISE framework.</strong> The Multimodal Social Agent determines what and when to communicate. Streaming Multimodal Orchestration synchronizes speech, facial animation, and gestures for progressive execution. Robot Deployment maps each output to Sophia’s actuators.</figcaption>
+    </figure>
+  </section>
+  <section class="section container" id="visualization">
+    <h2>Visualization Results</h2>
+    <figure>
+      <div class="visualization-image" role="region" aria-label="Six-turn birthday gift interaction; scroll horizontally on small screens" tabindex="0"><a href="assets/visualization.pdf" target="_blank" rel="noopener" aria-label="Open the original birthday gift interaction PDF"><img src="assets/visualization.webp" alt="Six interaction turns: user A hides a birthday gift in a box and asks Sophia to keep it secret. Sophia keeps the surprise confidential when user B asks, then reminds user A that the gift is in the wooden box behind them." width="3000" height="356" loading="lazy"></a></div>
+      <figcaption><strong>Birthday gift.</strong> Across multiple interaction turns, Sophia keeps a surprise gift confidential and recalls its location when asked by the original user.</figcaption>
+    </figure>
+  </section>
+</main>
+<footer><p>Website design inspired by <a href="https://discoforcing.github.io/" target="_blank" rel="noopener">DiscoForcing</a> and <a href="https://nerfies.github.io/" target="_blank" rel="noopener">Nerfies</a>.</p></footer>
+</body>
+</html>
